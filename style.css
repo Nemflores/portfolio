@@ -1,24 +1,82 @@
 body{
-    background-color: beige;
+   background-color: #efeff5;
 }
 
+.name{
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    top: 69;
+    font-size: 30;
+    
+}
+
+button{
+    border-radius: 69px;
+    font-size:50px;
+    background-color:black;
+    transition: .5s;
+    color:white;
+}
+
+button:hover{
+    background-color:whitesmoke; 
+    font-size: 69px;
+    padding: 0px 100px;
+    color: black;
+}
+
+
+.button{
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 150;
+}
+
+/*for main.html*/
 ul{
     list-style-type: none;
-    margin: 0;
-    padding:0;
-    overflow: hidden;
-    background-color: aliceblue;
-}
-
-li{
-    float:left;
-}
-
-li a{
-    display:block;
-    color: aqua;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    position: relative; 
+    margin:0px 200;
+    top:100px;
     
+}
+
+li {
+    text-align: center;
+    border:2px solid black;
+    padding: 40;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+
+
+.coding, .designs, .photos, .info{
+    transition: .3s;
+}
+
+.coding:hover{
+    background-color: aqua;
+     
+}
+
+.designs:hover{
+    background-color: lightpink; 
+}
+
+.photos:hover{
+    background-color: lawngreen;  
+}
+
+.info:hover{
+    background-color: gray;  
 }
